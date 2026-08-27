@@ -1,11 +1,9 @@
--- CollegeDB SQL Assignment
--- Student Name:
--- Register Number:
-
--- Write SQL commands below
-
--- 1. Create Database
-
--- 2. Select Database
-
--- 3. Create Department Table
+create database CollegeDB;
+use CollegeDB;
+CREATE TABLE Departments
+(
+DepartmentID INT(5) PRIMARY KEY,
+DepartmentName VARCHAR(20),
+HOD VARCHAR(20)
+);
+desc Departments;
